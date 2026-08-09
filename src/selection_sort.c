@@ -26,7 +26,7 @@ void selection_sort(int *arr, int len)
             int temp = arr[last];
             arr[last] = arr[index_max];
             arr[index_max] = temp;
-            // print_arr(arr, len);
+            print_arr(arr, len);
         }
     }
 }
